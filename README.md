@@ -13,14 +13,14 @@ classDiagram
     class ReprodutorMusical {
         <<interface>>
         +tocarMusica()
-        +selecionarFaixa()
-        +abrirPlaylist(String musica)
+        +abrirPlaylist()
+        +selecionarMusica(String musica)
     }
     class AparelhoTelefonico {
         <<interface>>
+        +fazerLigacao(String numero)
         +abrirContatos()
         +abrirTeclado()
-        +fazerLigação(String numero)
     }
     class NavegadorInternet {
         <<interface>>
