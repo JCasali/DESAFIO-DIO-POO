@@ -8,7 +8,7 @@ public class Main {
         // Teste Reprodutor Musical
         iphone.tocarMusica();
         iphone.abrirPlaylist();
-        iphone.selecionarMusica("Quão Grande é o meu Deus");
+        iphone.selecionarMusica("O Melhor Lugar do Mundo");
 
         // Teste Aparelho Telefonico
         iphone.fazerLigacao("0800-4321");
